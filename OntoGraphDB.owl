@@ -18,7 +18,7 @@
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)</terms:creator>
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Juan Trujillo, (Universidad de Alicante)</terms:creator>
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Manuel Paneque, (Universidad de Málaga)</terms:creator>
-        <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">María del Mar Roldán-García, (Universiad de Málaga)</terms:creator>
+        <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">María del Mar Roldán-García, (Universidad de Málaga)</terms:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:00</terms:issued>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:01</terms:issued>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:02</terms:issued>
