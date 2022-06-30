@@ -20,9 +20,8 @@
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Manuel Paneque, (Universidad de Málaga)</terms:creator>
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">María del Mar Roldán-García, (Universidad de Málaga)</terms:creator>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:00</terms:issued>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:01</terms:issued>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:02</terms:issued>
         <terms:license rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://opensource.org/licenses/MIT</terms:license>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:01</terms:modified>
         <terms:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aether Group</terms:publisher>
         <terms:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(c) Aether Group</terms:rights>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Databases Ontology</terms:title>
