@@ -6,8 +6,8 @@
     "title" : {
       "undefined" : "Graph Databases Ontology"
     },
-    "iri" : "https://w3id.org/ontographdb",
-    "author" : [ "María del Mar Roldán-García, (Universidad de Málaga)", "Manuel Paneque, (Universidad de Málaga)", "Carlos Blanco, (Universidad de Cantabria)", "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)", "Alejandro Maté, (Universidad de Alicante)", "Juan Trujillo, (Universidad de Alicante)" ],
+    "iri" : "https://w3id.org/ontographdb/",
+    "author" : [ "María del Mar Roldán-García, (Universidad de Málaga)", "Manuel Paneque, (Universidad de Málaga)", "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)", "Carlos Blanco, (Universidad de Cantabria)", "Alejandro Maté, (Universidad de Alicante)", "Juan Trujillo, (Universidad de Alicante)" ],
     "labels" : {
       "undefined" : "Graph Databases Ontology"
     },
@@ -24,17 +24,7 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "María del Mar Roldán-García, (Universidad de Málaga)",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Carlos Blanco, (Universidad de Cantabria)",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)",
+        "value" : "Juan Trujillo, (Universidad de Alicante)",
         "type" : "label"
       }, {
         "identifier" : "creator",
@@ -44,12 +34,22 @@
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Manuel Paneque, (Universidad de Málaga)",
+        "value" : "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Juan Trujillo, (Universidad de Alicante)",
+        "value" : "Carlos Blanco, (Universidad de Cantabria)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "María del Mar Roldán-García, (Universidad de Málaga)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Manuel Paneque, (Universidad de Málaga)",
         "type" : "label"
       } ],
       "citation" : [ {
@@ -81,16 +81,16 @@
         "value" : "(c) Aether Group",
         "type" : "label"
       } ],
-      "modified" : [ {
-        "identifier" : "modified",
-        "language" : "undefined",
-        "value" : "2022-06-30T08:24:01",
-        "type" : "label"
-      } ],
       "publisher" : [ {
         "identifier" : "publisher",
         "language" : "undefined",
         "value" : "Aether Group",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2022-06-30T08:24:01",
         "type" : "label"
       } ],
       "title" : [ {
@@ -136,7 +136,7 @@
     "id" : "19",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "20",
+    "id" : "21",
     "type" : "owl:Class"
   }, {
     "id" : "9",
@@ -154,7 +154,7 @@
     "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
+    "id" : "22",
     "type" : "owl:Class"
   }, {
     "id" : "5",
@@ -171,7 +171,6 @@
       "IRI-based" : "Node",
       "undefined" : "Node"
     },
-    "attributes" : [ "external" ],
     "id" : "2",
     "superClasses" : [ "3" ]
   }, {
@@ -217,7 +216,6 @@
     "comment" : {
       "undefined" : "According to graph theory, the element class generically defines the common properties of the terms that make up a graph."
     },
-    "attributes" : [ "external" ],
     "id" : "3"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -234,7 +232,6 @@
       "IRI-based" : "Relationship",
       "undefined" : "Relationship"
     },
-    "attributes" : [ "external" ],
     "id" : "1",
     "superClasses" : [ "3" ]
   }, {
@@ -255,9 +252,8 @@
     "comment" : {
       "undefined" : "Represent the specific graph database type to which the field belongs."
     },
-    "attributes" : [ "external" ],
-    "id" : "20",
-    "superClasses" : [ "21" ]
+    "id" : "21",
+    "superClasses" : [ "22" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -277,7 +273,6 @@
     "comment" : {
       "undefined" : "This class represents the concept of a database in a generic way."
     },
-    "attributes" : [ "external" ],
     "id" : "16"
   }, {
     "iri" : "http://www.ontologies.khaos.uma.es/bigowl/PrimitiveType",
@@ -300,7 +295,6 @@
     "comment" : {
       "undefined" : "This class represents the concept of a Graphs database in a generic way."
     },
-    "attributes" : [ "external" ],
     "id" : "18",
     "superClasses" : [ "15" ]
   }, {
@@ -315,7 +309,6 @@
     "comment" : {
       "undefined" : "This class represents the concept of a NoSQL database in a generic way."
     },
-    "attributes" : [ "external" ],
     "id" : "15",
     "superClasses" : [ "16" ]
   }, {
@@ -326,12 +319,11 @@
       "IRI-based" : "NoSQLField",
       "undefined" : "NoSQL Field"
     },
-    "subClasses" : [ "20" ],
+    "subClasses" : [ "21" ],
     "comment" : {
       "undefined" : "Represent the specific NoSQL database type to which the field belongs."
     },
-    "attributes" : [ "external" ],
-    "id" : "21",
+    "id" : "22",
     "superClasses" : [ "24" ]
   }, {
     "iri" : "http://www.ontologies.khaos.uma.es/bigowl/DataType",
@@ -351,11 +343,10 @@
       "IRI-based" : "Field",
       "undefined" : "Field"
     },
-    "subClasses" : [ "21" ],
+    "subClasses" : [ "22" ],
     "comment" : {
       "undefined" : "The Field class represents the concept of a data field in any database."
     },
-    "attributes" : [ "external" ],
     "id" : "24"
   } ],
   "property" : [ {
@@ -377,7 +368,7 @@
     "id" : "17",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "22",
+    "id" : "20",
     "type" : "owl:objectProperty"
   }, {
     "id" : "23",
@@ -431,7 +422,7 @@
     "comment" : {
       "undefined" : "This property link the origin node that participate in a relationship."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object" ],
     "id" : "0"
   }, {
     "iri" : "https://w3id.org/ontographdb/elementHasName",
@@ -445,7 +436,7 @@
     "comment" : {
       "undefined" : "Indicate the name of the element."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype" ],
     "id" : "8"
   }, {
     "range" : "3",
@@ -479,8 +470,8 @@
     "comment" : {
       "undefined" : "This property link the destination node that participate in a relationship."
     },
-    "attributes" : [ "external", "object" ],
-    "id" : "22"
+    "attributes" : [ "object" ],
+    "id" : "20"
   }, {
     "iri" : "https://w3id.org/ontographdb/FieldReference",
     "baseIri" : "https://w3id.org/ontographdb",
@@ -493,7 +484,7 @@
     "comment" : {
       "undefined" : "Indicate a field that reference other field."
     },
-    "attributes" : [ "transitive", "external", "object" ],
+    "attributes" : [ "transitive", "object" ],
     "id" : "23"
   }, {
     "iri" : "https://w3id.org/ontographdb/hasElements",
@@ -507,7 +498,7 @@
     "comment" : {
       "undefined" : "This property link a graph database with their elements."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object" ],
     "id" : "25"
   }, {
     "iri" : "https://w3id.org/ontographdb/isRequired",
@@ -516,11 +507,11 @@
     "label" : {
       "IRI-based" : "isRequired"
     },
-    "domain" : "21",
+    "domain" : "22",
     "comment" : {
       "undefined" : "Indicate if field is required."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype" ],
     "id" : "27"
   }, {
     "iri" : "https://w3id.org/ontographdb/fieldhasName",
@@ -530,11 +521,11 @@
       "IRI-based" : "fieldhasName",
       "undefined" : "Field Has Name"
     },
-    "domain" : "21",
+    "domain" : "22",
     "comment" : {
       "undefined" : "Indicate the name of the field."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype" ],
     "id" : "28"
   }, {
     "iri" : "https://w3id.org/ontographdb/hasValue",
@@ -544,11 +535,11 @@
       "IRI-based" : "hasValue",
       "undefined" : "Has Value"
     },
-    "domain" : "21",
+    "domain" : "22",
     "comment" : {
       "undefined" : "Indicate the value of the field."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype" ],
     "id" : "29"
   }, {
     "iri" : "https://w3id.org/ontographdb/databaseHasName",
@@ -562,7 +553,7 @@
     "comment" : {
       "undefined" : "Indicate the name of the database."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype" ],
     "id" : "30"
   }, {
     "iri" : "https://w3id.org/ontographdb/fieldIsIndex",
@@ -570,15 +561,15 @@
     "range" : "6",
     "label" : {
       "IRI-based" : "fieldIsIndex",
-      "undefined" : "Field Is Index"
+      "undefined" : "Indicate is the field is an index."
     },
-    "domain" : "20",
-    "attributes" : [ "external", "datatype" ],
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
     "id" : "31"
   }, {
     "iri" : "https://w3id.org/ontographdb/hasElementField",
     "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "20",
+    "range" : "21",
     "label" : {
       "IRI-based" : "hasElementField",
       "undefined" : "Has Element Field"
@@ -587,11 +578,11 @@
     "comment" : {
       "undefined" : "This property link specific element with graph Field."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object" ],
     "id" : "32"
   }, {
     "range" : "24",
-    "domain" : "21",
+    "domain" : "22",
     "attributes" : [ "anonymous", "object" ],
     "id" : "33"
   }, {
@@ -602,15 +593,15 @@
       "IRI-based" : "hasDatatype",
       "undefined" : "Has Datatype"
     },
-    "domain" : "21",
+    "domain" : "22",
     "comment" : {
       "undefined" : "This object property link the field with the type."
     },
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object" ],
     "id" : "34"
   }, {
-    "range" : "21",
-    "domain" : "20",
+    "range" : "22",
+    "domain" : "21",
     "attributes" : [ "anonymous", "object" ],
     "id" : "35"
   }, {

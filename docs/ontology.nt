@@ -1,23 +1,23 @@
-<https://w3id.org/ontographdb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/ontographdb> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/ontographdb/1.0.0> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/citation> "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb" .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/created> "2022-06-30T08:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Alejandro Maté, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Carlos Blanco, (Universidad de Cantabria)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Juan Trujillo, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Manuel Paneque, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "María del Mar Roldán-García, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/issued> "2022-06-30T08:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/license> "https://opensource.org/licenses/MIT"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/modified> "2022-06-30T08:24:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/publisher> "Aether Group" .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/rights> "(c) Aether Group" .
-<https://w3id.org/ontographdb> <http://purl.org/dc/terms/title> "Graph Databases Ontology" .
-<https://w3id.org/ontographdb> <http://purl.org/vocab/vann/preferredNamespacePrefix> "https://w3id.org/ontographdb/"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ontographdb"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologie that generically encompass and represent the domain in graph-oriented database."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://w3id.org/ontographdb> <http://www.w3.org/2000/01/rdf-schema#label> "Graph Databases Ontology" .
+<https://w3id.org/ontographdb/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/ontographdb/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/ontographdb/> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/citation> "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb" .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/created> "2022-06-30T08:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/creator> "Alejandro Maté, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/creator> "Carlos Blanco, (Universidad de Cantabria)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/creator> "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/creator> "Juan Trujillo, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/creator> "Manuel Paneque, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/creator> "María del Mar Roldán-García, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/issued> "2022-06-30T08:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/license> "https://opensource.org/licenses/MIT"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/modified> "2022-06-30T08:24:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/publisher> "Aether Group" .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/rights> "(c) Aether Group" .
+<https://w3id.org/ontographdb/> <http://purl.org/dc/terms/title> "Graph Databases Ontology" .
+<https://w3id.org/ontographdb/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "https://w3id.org/ontographdb/"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ontographdb"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologie that generically encompass and represent the domain in graph-oriented database."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb/> <http://www.w3.org/2000/01/rdf-schema#label> "Graph Databases Ontology" .
 # 
 # 
 # #################################################################

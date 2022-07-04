@@ -47,7 +47,7 @@
     "@id" : "http://www.ontologies.khaos.uma.es/bigowl/DataType"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb",
+  "@id" : "https://w3id.org/ontographdb/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/citation" : [ {
     "@value" : "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb"
@@ -111,7 +111,7 @@
     "@value" : "Graph Databases Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/ontographdb/1.0.0"
+    "@id" : "https://w3id.org/ontographdb/"
   } ]
 }, {
   "@id" : "https://w3id.org/ontographdb/Database",

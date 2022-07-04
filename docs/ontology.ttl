@@ -1,31 +1,31 @@
-@prefix : <https://w3id.org/ontographdb#> .
+@prefix : <https://w3id.org/ontographdb/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/ontographdb#> .
+@base <https://w3id.org/ontographdb/> .
 
-<https://w3id.org/ontographdb> rdf:type owl:Ontology ;
-                                owl:versionIRI <https://w3id.org/ontographdb/1.0.0> ;
-                                <http://purl.org/dc/terms/citation> "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb" ;
-                                <http://purl.org/dc/terms/created> "2022-06-30T08:24:00"^^xsd:dateTime ;
-                                <http://purl.org/dc/terms/creator> "Alejandro Maté, (Universidad de Alicante)"^^rdfs:Literal ,
-                                                                   "Carlos Blanco, (Universidad de Cantabria)"^^rdfs:Literal ,
-                                                                   "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)"^^rdfs:Literal ,
-                                                                   "Juan Trujillo, (Universidad de Alicante)"^^rdfs:Literal ,
-                                                                   "Manuel Paneque, (Universidad de Málaga)"^^rdfs:Literal ,
-                                                                   "María del Mar Roldán-García, (Universidad de Málaga)"^^rdfs:Literal ;
-                                <http://purl.org/dc/terms/issued> "2022-06-30T08:24:00"^^xsd:dateTime ;
-                                <http://purl.org/dc/terms/license> "https://opensource.org/licenses/MIT"^^rdfs:Literal ;
-                                <http://purl.org/dc/terms/modified> "2022-06-30T08:24:01"^^xsd:dateTime ;
-                                <http://purl.org/dc/terms/publisher> "Aether Group" ;
-                                <http://purl.org/dc/terms/rights> "(c) Aether Group" ;
-                                <http://purl.org/dc/terms/title> "Graph Databases Ontology" ;
-                                <http://purl.org/vocab/vann/preferredNamespacePrefix> "https://w3id.org/ontographdb/"^^rdfs:Literal ,
-                                                                                      "ontographdb"^^rdfs:Literal ;
-                                rdfs:comment "Ontologie that generically encompass and represent the domain in graph-oriented database."^^rdfs:Literal ;
-                                rdfs:label "Graph Databases Ontology" .
+<https://w3id.org/ontographdb/> rdf:type owl:Ontology ;
+                                 owl:versionIRI <https://w3id.org/ontographdb/> ;
+                                 <http://purl.org/dc/terms/citation> "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb" ;
+                                 <http://purl.org/dc/terms/created> "2022-06-30T08:24:00"^^xsd:dateTime ;
+                                 <http://purl.org/dc/terms/creator> "Alejandro Maté, (Universidad de Alicante)"^^rdfs:Literal ,
+                                                                    "Carlos Blanco, (Universidad de Cantabria)"^^rdfs:Literal ,
+                                                                    "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)"^^rdfs:Literal ,
+                                                                    "Juan Trujillo, (Universidad de Alicante)"^^rdfs:Literal ,
+                                                                    "Manuel Paneque, (Universidad de Málaga)"^^rdfs:Literal ,
+                                                                    "María del Mar Roldán-García, (Universidad de Málaga)"^^rdfs:Literal ;
+                                 <http://purl.org/dc/terms/issued> "2022-06-30T08:24:00"^^xsd:dateTime ;
+                                 <http://purl.org/dc/terms/license> "https://opensource.org/licenses/MIT"^^rdfs:Literal ;
+                                 <http://purl.org/dc/terms/modified> "2022-06-30T08:24:01"^^xsd:dateTime ;
+                                 <http://purl.org/dc/terms/publisher> "Aether Group" ;
+                                 <http://purl.org/dc/terms/rights> "(c) Aether Group" ;
+                                 <http://purl.org/dc/terms/title> "Graph Databases Ontology" ;
+                                 <http://purl.org/vocab/vann/preferredNamespacePrefix> "https://w3id.org/ontographdb/"^^rdfs:Literal ,
+                                                                                       "ontographdb"^^rdfs:Literal ;
+                                 rdfs:comment "Ontologie that generically encompass and represent the domain in graph-oriented database."^^rdfs:Literal ;
+                                 rdfs:label "Graph Databases Ontology" .
 
 #################################################################
 #    Annotation properties
@@ -80,52 +80,52 @@
 #################################################################
 
 ###  https://w3id.org/ontographdb/FieldReference
-<https://w3id.org/ontographdb/FieldReference> rdf:type owl:ObjectProperty ,
-                                                       owl:TransitiveProperty ;
-                                              rdfs:domain <https://w3id.org/ontographdb/Field> ;
-                                              rdfs:range <https://w3id.org/ontographdb/Field> ;
-                                              rdfs:comment "Indicate a field that reference other field." ;
-                                              rdfs:label "Field Reference" .
+:FieldReference rdf:type owl:ObjectProperty ,
+                         owl:TransitiveProperty ;
+                rdfs:domain :Field ;
+                rdfs:range :Field ;
+                rdfs:comment "Indicate a field that reference other field." ;
+                rdfs:label "Field Reference" .
 
 
 ###  https://w3id.org/ontographdb/hasDatatype
-<https://w3id.org/ontographdb/hasDatatype> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <https://w3id.org/ontographdb/NoSQLField> ;
-                                           rdfs:range <http://www.ontologies.khaos.uma.es/bigowl/DataType> ;
-                                           rdfs:comment "This object property link the field with the type." ;
-                                           rdfs:label "Has Datatype" .
+:hasDatatype rdf:type owl:ObjectProperty ;
+             rdfs:domain :NoSQLField ;
+             rdfs:range <http://www.ontologies.khaos.uma.es/bigowl/DataType> ;
+             rdfs:comment "This object property link the field with the type." ;
+             rdfs:label "Has Datatype" .
 
 
 ###  https://w3id.org/ontographdb/hasElementField
-<https://w3id.org/ontographdb/hasElementField> rdf:type owl:ObjectProperty ;
-                                               rdfs:domain <https://w3id.org/ontographdb/Element> ;
-                                               rdfs:range <https://w3id.org/ontographdb/NoSQLFieldGraph> ;
-                                               rdfs:comment "This property link specific element with graph Field." ;
-                                               rdfs:label "Has Element Field" .
+:hasElementField rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Element ;
+                 rdfs:range :NoSQLFieldGraph ;
+                 rdfs:comment "This property link specific element with graph Field." ;
+                 rdfs:label "Has Element Field" .
 
 
 ###  https://w3id.org/ontographdb/hasElements
-<https://w3id.org/ontographdb/hasElements> rdf:type owl:ObjectProperty ;
-                                           rdfs:domain <https://w3id.org/ontographdb/GraphsDatabase> ;
-                                           rdfs:range <https://w3id.org/ontographdb/Element> ;
-                                           rdfs:comment "This property link a graph database with their elements." ;
-                                           rdfs:label "Has Element" .
+:hasElements rdf:type owl:ObjectProperty ;
+             rdfs:domain :GraphsDatabase ;
+             rdfs:range :Element ;
+             rdfs:comment "This property link a graph database with their elements." ;
+             rdfs:label "Has Element" .
 
 
 ###  https://w3id.org/ontographdb/hasRelationshipFrom
-<https://w3id.org/ontographdb/hasRelationshipFrom> rdf:type owl:ObjectProperty ;
-                                                   rdfs:domain <https://w3id.org/ontographdb/Relationship> ;
-                                                   rdfs:range <https://w3id.org/ontographdb/Node> ;
-                                                   rdfs:comment "This property link the origin node that participate in a relationship." ;
-                                                   rdfs:label "Has Relationship From" .
+:hasRelationshipFrom rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Relationship ;
+                     rdfs:range :Node ;
+                     rdfs:comment "This property link the origin node that participate in a relationship." ;
+                     rdfs:label "Has Relationship From" .
 
 
 ###  https://w3id.org/ontographdb/hasRelationshipTo
-<https://w3id.org/ontographdb/hasRelationshipTo> rdf:type owl:ObjectProperty ;
-                                                 rdfs:domain <https://w3id.org/ontographdb/Relationship> ;
-                                                 rdfs:range <https://w3id.org/ontographdb/Node> ;
-                                                 rdfs:comment "This property link the destination node that participate in a relationship." ;
-                                                 rdfs:label "Has Relationship To" .
+:hasRelationshipTo rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Relationship ;
+                   rdfs:range :Node ;
+                   rdfs:comment "This property link the destination node that participate in a relationship." ;
+                   rdfs:label "Has Relationship To" .
 
 
 #################################################################
@@ -133,50 +133,50 @@
 #################################################################
 
 ###  https://w3id.org/ontographdb/databaseHasName
-<https://w3id.org/ontographdb/databaseHasName> rdf:type owl:DatatypeProperty ;
-                                               rdfs:domain <https://w3id.org/ontographdb/Database> ;
-                                               rdfs:range xsd:string ;
-                                               rdfs:comment "Indicate the name of the database." ;
-                                               rdfs:label "Database Has Name" .
+:databaseHasName rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Database ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Indicate the name of the database." ;
+                 rdfs:label "Database Has Name" .
 
 
 ###  https://w3id.org/ontographdb/elementHasName
-<https://w3id.org/ontographdb/elementHasName> rdf:type owl:DatatypeProperty ;
-                                              rdfs:domain <https://w3id.org/ontographdb/Element> ;
-                                              rdfs:range xsd:string ;
-                                              rdfs:comment "Indicate the name of the element." ;
-                                              rdfs:label "Element Has Name" .
+:elementHasName rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Element ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Indicate the name of the element." ;
+                rdfs:label "Element Has Name" .
 
 
 ###  https://w3id.org/ontographdb/fieldIsIndex
-<https://w3id.org/ontographdb/fieldIsIndex> rdf:type owl:DatatypeProperty ;
-                                            rdfs:domain <https://w3id.org/ontographdb/NoSQLFieldGraph> ;
-                                            rdfs:range xsd:boolean ;
-                                            rdfs:label "Field Is Index" ,
-                                                       "Indicate is the field is an index." .
+:fieldIsIndex rdf:type owl:DatatypeProperty ;
+              rdfs:domain :NoSQLFieldGraph ;
+              rdfs:range xsd:boolean ;
+              rdfs:label "Field Is Index" ,
+                         "Indicate is the field is an index." .
 
 
 ###  https://w3id.org/ontographdb/fieldhasName
-<https://w3id.org/ontographdb/fieldhasName> rdf:type owl:DatatypeProperty ;
-                                            rdfs:domain <https://w3id.org/ontographdb/NoSQLField> ;
-                                            rdfs:range xsd:string ;
-                                            rdfs:comment "Indicate the name of the field." ;
-                                            rdfs:label "Field Has Name" .
+:fieldhasName rdf:type owl:DatatypeProperty ;
+              rdfs:domain :NoSQLField ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Indicate the name of the field." ;
+              rdfs:label "Field Has Name" .
 
 
 ###  https://w3id.org/ontographdb/hasValue
-<https://w3id.org/ontographdb/hasValue> rdf:type owl:DatatypeProperty ;
-                                        rdfs:domain <https://w3id.org/ontographdb/NoSQLField> ;
-                                        rdfs:range xsd:string ;
-                                        rdfs:comment "Indicate the value of the field." ;
-                                        rdfs:label "Has Value" .
+:hasValue rdf:type owl:DatatypeProperty ;
+          rdfs:domain :NoSQLField ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Indicate the value of the field." ;
+          rdfs:label "Has Value" .
 
 
 ###  https://w3id.org/ontographdb/isRequired
-<https://w3id.org/ontographdb/isRequired> rdf:type owl:DatatypeProperty ;
-                                          rdfs:domain <https://w3id.org/ontographdb/NoSQLField> ;
-                                          rdfs:range xsd:boolean ;
-                                          rdfs:comment "Indicate if field is required." .
+:isRequired rdf:type owl:DatatypeProperty ;
+            rdfs:domain :NoSQLField ;
+            rdfs:range xsd:boolean ;
+            rdfs:comment "Indicate if field is required." .
 
 
 #################################################################
@@ -198,61 +198,61 @@
 
 
 ###  https://w3id.org/ontographdb/Database
-<https://w3id.org/ontographdb/Database> rdf:type owl:Class ;
-                                        rdfs:comment "This class represents the concept of a database in a generic way." ;
-                                        rdfs:label "Database" .
+:Database rdf:type owl:Class ;
+          rdfs:comment "This class represents the concept of a database in a generic way." ;
+          rdfs:label "Database" .
 
 
 ###  https://w3id.org/ontographdb/Element
-<https://w3id.org/ontographdb/Element> rdf:type owl:Class ;
-                                       rdfs:comment "According to graph theory, the element class generically defines the common properties of the terms that make up a graph." ;
-                                       rdfs:label "Element" .
+:Element rdf:type owl:Class ;
+         rdfs:comment "According to graph theory, the element class generically defines the common properties of the terms that make up a graph." ;
+         rdfs:label "Element" .
 
 
 ###  https://w3id.org/ontographdb/Field
-<https://w3id.org/ontographdb/Field> rdf:type owl:Class ;
-                                     rdfs:comment "The Field class represents the concept of a data field in any database." ;
-                                     rdfs:label "Field" .
+:Field rdf:type owl:Class ;
+       rdfs:comment "The Field class represents the concept of a data field in any database." ;
+       rdfs:label "Field" .
 
 
 ###  https://w3id.org/ontographdb/GraphsDatabase
-<https://w3id.org/ontographdb/GraphsDatabase> rdf:type owl:Class ;
-                                              rdfs:subClassOf <https://w3id.org/ontographdb/NoSQLDatabase> ;
-                                              rdfs:comment "This class represents the concept of a Graphs database in a generic way." ;
-                                              rdfs:label "Graphs Databases" .
+:GraphsDatabase rdf:type owl:Class ;
+                rdfs:subClassOf :NoSQLDatabase ;
+                rdfs:comment "This class represents the concept of a Graphs database in a generic way." ;
+                rdfs:label "Graphs Databases" .
 
 
 ###  https://w3id.org/ontographdb/NoSQLDatabase
-<https://w3id.org/ontographdb/NoSQLDatabase> rdf:type owl:Class ;
-                                             rdfs:subClassOf <https://w3id.org/ontographdb/Database> ;
-                                             rdfs:comment "This class represents the concept of a NoSQL database in a generic way." ;
-                                             rdfs:label "NoSQL Database" .
+:NoSQLDatabase rdf:type owl:Class ;
+               rdfs:subClassOf :Database ;
+               rdfs:comment "This class represents the concept of a NoSQL database in a generic way." ;
+               rdfs:label "NoSQL Database" .
 
 
 ###  https://w3id.org/ontographdb/NoSQLField
-<https://w3id.org/ontographdb/NoSQLField> rdf:type owl:Class ;
-                                          rdfs:subClassOf <https://w3id.org/ontographdb/Field> ;
-                                          rdfs:comment "Represent the specific NoSQL database type to which the field belongs." ;
-                                          rdfs:label "NoSQL Field" .
+:NoSQLField rdf:type owl:Class ;
+            rdfs:subClassOf :Field ;
+            rdfs:comment "Represent the specific NoSQL database type to which the field belongs." ;
+            rdfs:label "NoSQL Field" .
 
 
 ###  https://w3id.org/ontographdb/NoSQLFieldGraph
-<https://w3id.org/ontographdb/NoSQLFieldGraph> rdf:type owl:Class ;
-                                               rdfs:subClassOf <https://w3id.org/ontographdb/NoSQLField> ;
-                                               rdfs:comment "Represent the specific graph database type to which the field belongs." ;
-                                               rdfs:label "NoSQL Field" .
+:NoSQLFieldGraph rdf:type owl:Class ;
+                 rdfs:subClassOf :NoSQLField ;
+                 rdfs:comment "Represent the specific graph database type to which the field belongs." ;
+                 rdfs:label "NoSQL Field" .
 
 
 ###  https://w3id.org/ontographdb/Node
-<https://w3id.org/ontographdb/Node> rdf:type owl:Class ;
-                                    rdfs:subClassOf <https://w3id.org/ontographdb/Element> ;
-                                    rdfs:label "Node" .
+:Node rdf:type owl:Class ;
+      rdfs:subClassOf :Element ;
+      rdfs:label "Node" .
 
 
 ###  https://w3id.org/ontographdb/Relationship
-<https://w3id.org/ontographdb/Relationship> rdf:type owl:Class ;
-                                            rdfs:subClassOf <https://w3id.org/ontographdb/Element> ;
-                                            rdfs:label "Relationship" .
+:Relationship rdf:type owl:Class ;
+              rdfs:subClassOf :Element ;
+              rdfs:label "Relationship" .
 
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

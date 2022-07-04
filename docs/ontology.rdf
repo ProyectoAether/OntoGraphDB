@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/ontographdb#"
-     xml:base="https://w3id.org/ontographdb"
+<rdf:RDF xmlns="https://w3id.org/ontographdb/"
+     xml:base="https://w3id.org/ontographdb/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,8 +8,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org/ontographdb">
-        <owl:versionIRI rdf:resource="https://w3id.org/ontographdb/1.0.0"/>
+    <owl:Ontology rdf:about="https://w3id.org/ontographdb/">
+        <owl:versionIRI rdf:resource="https://w3id.org/ontographdb/"/>
         <terms:citation>Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb</terms:citation>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:00</terms:created>
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Alejandro Maté, (Universidad de Alicante)</terms:creator>
