@@ -2,11 +2,11 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "undefined" ],
-    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/ontographdb", "http://www.ontologies.khaos.uma.es/bigowl" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "https://w3id.org/OntoGraphDB", "http://www.w3.org/2001/XMLSchema", "http://www.ontologies.khaos.uma.es/bigowl" ],
     "title" : {
       "undefined" : "Graph Databases Ontology"
     },
-    "iri" : "https://w3id.org/ontographdb/",
+    "iri" : "https://w3id.org/OntoGraphDB/",
     "author" : [ "María del Mar Roldán-García, (Universidad de Málaga)", "Manuel Paneque, (Universidad de Málaga)", "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)", "Carlos Blanco, (Universidad de Cantabria)", "Alejandro Maté, (Universidad de Alicante)", "Juan Trujillo, (Universidad de Alicante)" ],
     "labels" : {
       "undefined" : "Graph Databases Ontology"
@@ -24,22 +24,12 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Juan Trujillo, (Universidad de Alicante)",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "Alejandro Maté, (Universidad de Alicante)",
-        "type" : "label"
-      }, {
-        "identifier" : "creator",
-        "language" : "undefined",
         "value" : "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Carlos Blanco, (Universidad de Cantabria)",
+        "value" : "Manuel Paneque, (Universidad de Málaga)",
         "type" : "label"
       }, {
         "identifier" : "creator",
@@ -49,13 +39,23 @@
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Manuel Paneque, (Universidad de Málaga)",
+        "value" : "Carlos Blanco, (Universidad de Cantabria)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Alejandro Maté, (Universidad de Alicante)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Juan Trujillo, (Universidad de Alicante)",
         "type" : "label"
       } ],
       "citation" : [ {
         "identifier" : "citation",
         "language" : "undefined",
-        "value" : "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb",
+        "value" : "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/OntoGraphDB",
         "type" : "label"
       } ],
       "created" : [ {
@@ -64,21 +64,21 @@
         "value" : "2022-06-30T08:24:00",
         "type" : "label"
       } ],
-      "preferredNamespacePrefix" : [ {
-        "identifier" : "preferredNamespacePrefix",
-        "language" : "undefined",
-        "value" : "ontographdb",
-        "type" : "label"
-      }, {
-        "identifier" : "preferredNamespacePrefix",
-        "language" : "undefined",
-        "value" : "https://w3id.org/ontographdb/",
-        "type" : "label"
-      } ],
       "rights" : [ {
         "identifier" : "rights",
         "language" : "undefined",
         "value" : "(c) Aether Group",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "OntoGraphDB",
+        "type" : "label"
+      }, {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "https://w3id.org/OntoGraphDB/",
         "type" : "label"
       } ],
       "publisher" : [ {
@@ -93,41 +93,44 @@
         "value" : "2022-06-30T08:24:01",
         "type" : "label"
       } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "undefined",
-        "value" : "Graph Databases Ontology",
-        "type" : "label"
-      } ],
       "issued" : [ {
         "identifier" : "issued",
         "language" : "undefined",
         "value" : "2022-06-30T08:24:00",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Graph Databases Ontology",
         "type" : "label"
       } ]
     }
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "2",
+    "id" : "5",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
-    "type" : "rdfs:Datatype"
+    "id" : "13",
+    "type" : "owl:Class"
   }, {
-    "id" : "7",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "10",
+    "id" : "15",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "3",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "1",
@@ -136,43 +139,54 @@
     "id" : "19",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "21",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
+    "id" : "26",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "16",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "26",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
-    "id" : "22",
+    "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "14",
     "type" : "owl:Class"
   }, {
-    "id" : "24",
+    "id" : "20",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://w3id.org/ontographdb/Node",
-    "baseIri" : "https://w3id.org/ontographdb",
+    "iri" : "https://w3id.org/OntoGraphDB/NoSQLDatabase",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Node",
-      "undefined" : "Node"
+      "IRI-based" : "NoSQLDatabase",
+      "undefined" : "NoSQL Database"
     },
-    "id" : "2",
-    "superClasses" : [ "3" ]
+    "subClasses" : [ "7" ],
+    "comment" : {
+      "undefined" : "This class represents the concept of a NoSQL database in a generic way."
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/Relationship",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Relationship",
+      "undefined" : "Relationship"
+    },
+    "id" : "12",
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "http://www.ontologies.khaos.uma.es/bigowl/StructuredType",
     "baseIri" : "http://www.ontologies.khaos.uma.es/bigowl",
@@ -181,79 +195,29 @@
       "IRI-based" : "StructuredType"
     },
     "attributes" : [ "external" ],
-    "id" : "4",
-    "superClasses" : [ "5" ]
+    "id" : "13",
+    "superClasses" : [ "14" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "6",
+    "id" : "15",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "7",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "10",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "https://w3id.org/ontographdb/Element",
-    "baseIri" : "https://w3id.org/ontographdb",
+    "iri" : "https://w3id.org/OntoGraphDB/NoSQLField",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Element",
-      "undefined" : "Element"
-    },
-    "subClasses" : [ "2", "1" ],
-    "comment" : {
-      "undefined" : "According to graph theory, the element class generically defines the common properties of the terms that make up a graph."
-    },
-    "id" : "3"
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "11",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "https://w3id.org/ontographdb/Relationship",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Relationship",
-      "undefined" : "Relationship"
-    },
-    "id" : "1",
-    "superClasses" : [ "3" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "19",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "https://w3id.org/ontographdb/NoSQLFieldGraph",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "NoSQLFieldGraph",
+      "IRI-based" : "NoSQLField",
       "undefined" : "NoSQL Field"
     },
+    "subClasses" : [ "20" ],
     "comment" : {
-      "undefined" : "Represent the specific graph database type to which the field belongs."
+      "undefined" : "Represent the specific NoSQL database type to which the field belongs."
     },
-    "id" : "21",
-    "superClasses" : [ "22" ]
+    "id" : "3",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -262,18 +226,82 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "https://w3id.org/ontographdb/Database",
-    "baseIri" : "https://w3id.org/ontographdb",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/Field",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Field",
+      "undefined" : "Field"
+    },
+    "subClasses" : [ "3" ],
+    "comment" : {
+      "undefined" : "The Field class represents the concept of a data field in any database."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/Database",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Database",
       "undefined" : "Database"
     },
-    "subClasses" : [ "15" ],
+    "subClasses" : [ "5" ],
     "comment" : {
       "undefined" : "This class represents the concept of a database in a generic way."
     },
-    "id" : "16"
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/Element",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Element",
+      "undefined" : "Element"
+    },
+    "subClasses" : [ "29", "12" ],
+    "comment" : {
+      "undefined" : "According to graph theory, the element class generically defines the common properties of the terms that make up a graph."
+    },
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/Node",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Node",
+      "undefined" : "Node"
+    },
+    "id" : "29",
+    "superClasses" : [ "11" ]
   }, {
     "iri" : "http://www.ontologies.khaos.uma.es/bigowl/PrimitiveType",
     "baseIri" : "http://www.ontologies.khaos.uma.es/bigowl",
@@ -282,11 +310,11 @@
       "IRI-based" : "PrimitiveType"
     },
     "attributes" : [ "external" ],
-    "id" : "26",
-    "superClasses" : [ "5" ]
+    "id" : "31",
+    "superClasses" : [ "14" ]
   }, {
-    "iri" : "https://w3id.org/ontographdb/GraphsDatabase",
-    "baseIri" : "https://w3id.org/ontographdb",
+    "iri" : "https://w3id.org/OntoGraphDB/GraphsDatabase",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
     "instances" : 0,
     "label" : {
       "IRI-based" : "GraphsDatabase",
@@ -295,36 +323,8 @@
     "comment" : {
       "undefined" : "This class represents the concept of a Graphs database in a generic way."
     },
-    "id" : "18",
-    "superClasses" : [ "15" ]
-  }, {
-    "iri" : "https://w3id.org/ontographdb/NoSQLDatabase",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "NoSQLDatabase",
-      "undefined" : "NoSQL Database"
-    },
-    "subClasses" : [ "18" ],
-    "comment" : {
-      "undefined" : "This class represents the concept of a NoSQL database in a generic way."
-    },
-    "id" : "15",
-    "superClasses" : [ "16" ]
-  }, {
-    "iri" : "https://w3id.org/ontographdb/NoSQLField",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "NoSQLField",
-      "undefined" : "NoSQL Field"
-    },
-    "subClasses" : [ "21" ],
-    "comment" : {
-      "undefined" : "Represent the specific NoSQL database type to which the field belongs."
-    },
-    "id" : "22",
-    "superClasses" : [ "24" ]
+    "id" : "7",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "http://www.ontologies.khaos.uma.es/bigowl/DataType",
     "baseIri" : "http://www.ontologies.khaos.uma.es/bigowl",
@@ -332,64 +332,64 @@
     "label" : {
       "IRI-based" : "DataType"
     },
-    "subClasses" : [ "4", "26" ],
+    "subClasses" : [ "13", "31" ],
     "attributes" : [ "external" ],
-    "id" : "5"
+    "id" : "14"
   }, {
-    "iri" : "https://w3id.org/ontographdb/Field",
-    "baseIri" : "https://w3id.org/ontographdb",
+    "iri" : "https://w3id.org/OntoGraphDB/NoSQLFieldGraph",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Field",
-      "undefined" : "Field"
+      "IRI-based" : "NoSQLFieldGraph",
+      "undefined" : "NoSQL Field"
     },
-    "subClasses" : [ "22" ],
     "comment" : {
-      "undefined" : "The Field class represents the concept of a data field in any database."
+      "undefined" : "Represent the specific graph database type to which the field belongs."
     },
-    "id" : "24"
+    "id" : "20",
+    "superClasses" : [ "3" ]
   } ],
   "property" : [ {
     "id" : "0",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "2",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "8",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "12",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "13",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "14",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "17",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "20",
+    "id" : "10",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "23",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "25",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "27",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "28",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "29",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "30",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "31",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "32",
@@ -399,10 +399,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "34",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "35",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "36",
     "type" : "rdfs:SubClassOf"
@@ -411,208 +411,208 @@
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://w3id.org/ontographdb/hasRelationshipFrom",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "hasRelationshipFrom",
-      "undefined" : "Has Relationship From"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "This property link the origin node that participate in a relationship."
-    },
-    "attributes" : [ "object" ],
-    "id" : "0"
-  }, {
-    "iri" : "https://w3id.org/ontographdb/elementHasName",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "9",
-    "label" : {
-      "IRI-based" : "elementHasName",
-      "undefined" : "Element Has Name"
-    },
-    "domain" : "3",
-    "comment" : {
-      "undefined" : "Indicate the name of the element."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "8"
-  }, {
-    "range" : "3",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "12"
-  }, {
-    "range" : "3",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "13"
-  }, {
-    "range" : "16",
-    "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "14"
-  }, {
-    "range" : "15",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "17"
-  }, {
-    "iri" : "https://w3id.org/ontographdb/hasRelationshipTo",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "hasRelationshipTo",
-      "undefined" : "Has Relationship To"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "This property link the destination node that participate in a relationship."
-    },
-    "attributes" : [ "object" ],
-    "id" : "20"
-  }, {
-    "iri" : "https://w3id.org/ontographdb/FieldReference",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "24",
+    "iri" : "https://w3id.org/OntoGraphDB/FieldReference",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "1",
     "label" : {
       "IRI-based" : "FieldReference",
       "undefined" : "Field Reference"
     },
-    "domain" : "24",
+    "domain" : "1",
     "comment" : {
       "undefined" : "Indicate a field that reference other field."
     },
     "attributes" : [ "transitive", "object" ],
-    "id" : "23"
+    "id" : "0"
   }, {
-    "iri" : "https://w3id.org/ontographdb/hasElements",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "3",
-    "label" : {
-      "IRI-based" : "hasElements",
-      "undefined" : "Has Element"
-    },
-    "domain" : "18",
-    "comment" : {
-      "undefined" : "This property link a graph database with their elements."
-    },
-    "attributes" : [ "object" ],
-    "id" : "25"
-  }, {
-    "iri" : "https://w3id.org/ontographdb/isRequired",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "11",
+    "iri" : "https://w3id.org/OntoGraphDB/isRequired",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "4",
     "label" : {
       "IRI-based" : "isRequired"
     },
-    "domain" : "22",
+    "domain" : "3",
     "comment" : {
       "undefined" : "Indicate if field is required."
     },
     "attributes" : [ "datatype" ],
-    "id" : "27"
+    "id" : "2"
   }, {
-    "iri" : "https://w3id.org/ontographdb/fieldhasName",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "7",
+    "iri" : "https://w3id.org/OntoGraphDB/fieldhasName",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "9",
     "label" : {
       "IRI-based" : "fieldhasName",
       "undefined" : "Field Has Name"
     },
-    "domain" : "22",
+    "domain" : "3",
     "comment" : {
       "undefined" : "Indicate the name of the field."
     },
     "attributes" : [ "datatype" ],
-    "id" : "28"
+    "id" : "8"
   }, {
-    "iri" : "https://w3id.org/ontographdb/hasValue",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "10",
+    "iri" : "https://w3id.org/OntoGraphDB/hasElements",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasElements",
+      "undefined" : "Has Element"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "This property link a graph database with their elements."
+    },
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/hasValue",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "17",
     "label" : {
       "IRI-based" : "hasValue",
       "undefined" : "Has Value"
     },
-    "domain" : "22",
+    "domain" : "3",
     "comment" : {
       "undefined" : "Indicate the value of the field."
     },
     "attributes" : [ "datatype" ],
-    "id" : "29"
+    "id" : "16"
   }, {
-    "iri" : "https://w3id.org/ontographdb/databaseHasName",
-    "baseIri" : "https://w3id.org/ontographdb",
+    "iri" : "https://w3id.org/OntoGraphDB/databaseHasName",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
     "range" : "19",
     "label" : {
       "IRI-based" : "databaseHasName",
       "undefined" : "Database Has Name"
     },
-    "domain" : "16",
+    "domain" : "6",
     "comment" : {
       "undefined" : "Indicate the name of the database."
     },
     "attributes" : [ "datatype" ],
-    "id" : "30"
+    "id" : "18"
   }, {
-    "iri" : "https://w3id.org/ontographdb/fieldIsIndex",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "6",
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "3",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/fieldIsIndex",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "15",
     "label" : {
       "IRI-based" : "fieldIsIndex",
       "undefined" : "Indicate is the field is an index."
     },
-    "domain" : "21",
+    "domain" : "20",
     "attributes" : [ "datatype" ],
-    "id" : "31"
+    "id" : "23"
   }, {
-    "iri" : "https://w3id.org/ontographdb/hasElementField",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "21",
-    "label" : {
-      "IRI-based" : "hasElementField",
-      "undefined" : "Has Element Field"
-    },
+    "range" : "1",
     "domain" : "3",
-    "comment" : {
-      "undefined" : "This property link specific element with graph Field."
-    },
-    "attributes" : [ "object" ],
-    "id" : "32"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
   }, {
-    "range" : "24",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "33"
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
   }, {
-    "iri" : "https://w3id.org/ontographdb/hasDatatype",
-    "baseIri" : "https://w3id.org/ontographdb",
-    "range" : "5",
+    "iri" : "https://w3id.org/OntoGraphDB/hasDatatype",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "14",
     "label" : {
       "IRI-based" : "hasDatatype",
       "undefined" : "Has Datatype"
     },
-    "domain" : "22",
+    "domain" : "3",
     "comment" : {
       "undefined" : "This object property link the field with the type."
     },
     "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/hasElementField",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "hasElementField",
+      "undefined" : "Has Element Field"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "This property link specific element with graph Field."
+    },
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/elementHasName",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "elementHasName",
+      "undefined" : "Element Has Name"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Indicate the name of the element."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://w3id.org/OntoGraphDB/hasRelationshipTo",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasRelationshipTo",
+      "undefined" : "Has Relationship To"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "This property link the destination node that participate in a relationship."
+    },
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "range" : "14",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "11",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "34"
   }, {
-    "range" : "22",
-    "domain" : "21",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://w3id.org/OntoGraphDB/hasRelationshipFrom",
+    "baseIri" : "https://w3id.org/OntoGraphDB",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasRelationshipFrom",
+      "undefined" : "Has Relationship From"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "This property link the origin node that participate in a relationship."
+    },
+    "attributes" : [ "object" ],
     "id" : "35"
   }, {
-    "range" : "5",
-    "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "36"
   }, {
-    "range" : "5",
-    "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "11",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "37"
   } ]
 }

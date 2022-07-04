@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/ontographdb/"
-     xml:base="https://w3id.org/ontographdb/"
+<rdf:RDF xmlns="https://w3id.org/OntoGraphDB/"
+     xml:base="https://w3id.org/OntoGraphDB/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -8,10 +8,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:databases="https://w3id.org/ontographdb/">
-    <owl:Ontology rdf:about="https://w3id.org/ontographdb/">
-        <owl:versionIRI rdf:resource="https://w3id.org/ontographdb/"/>
-        <terms:citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb</terms:citation>
+     xmlns:databases="https://w3id.org/OntoGraphDB/">
+    <owl:Ontology rdf:about="https://w3id.org/OntoGraphDB/">
+        <owl:versionIRI rdf:resource="https://w3id.org/OntoGraphDB/"/>
+        <terms:citation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/OntoGraphDB</terms:citation>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:00</terms:created>
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Alejandro Maté, (Universidad de Alicante)</terms:creator>
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Carlos Blanco, (Universidad de Cantabria)</terms:creator>
@@ -25,8 +25,8 @@
         <terms:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aether Group</terms:publisher>
         <terms:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(c) Aether Group</terms:rights>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Databases Ontology</terms:title>
-        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://w3id.org/ontographdb/</vann:preferredNamespacePrefix>
-        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">ontographdb</vann:preferredNamespacePrefix>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://w3id.org/OntoGraphDB/</vann:preferredNamespacePrefix>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">OntoGraphDB</vann:preferredNamespacePrefix>
         <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Ontologie that generically encompass and represent the domain in graph-oriented database.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Databases Ontology</rdfs:label>
     </owl:Ontology>
@@ -121,22 +121,22 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/FieldReference -->
+    <!-- https://w3id.org/OntoGraphDB/FieldReference -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/ontographdb/FieldReference">
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoGraphDB/FieldReference">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/Field"/>
-        <rdfs:range rdf:resource="https://w3id.org/ontographdb/Field"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/Field"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoGraphDB/Field"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate a field that reference other field.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Field Reference</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/ontographdb/hasDatatype -->
+    <!-- https://w3id.org/OntoGraphDB/hasDatatype -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/ontographdb/hasDatatype">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/NoSQLField"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoGraphDB/hasDatatype">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/NoSQLField"/>
         <rdfs:range rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/DataType"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This object property link the field with the type.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has Datatype</rdfs:label>
@@ -144,44 +144,44 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/hasElementField -->
+    <!-- https://w3id.org/OntoGraphDB/hasElementField -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/ontographdb/hasElementField">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/Element"/>
-        <rdfs:range rdf:resource="https://w3id.org/ontographdb/NoSQLFieldGraph"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoGraphDB/hasElementField">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/Element"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoGraphDB/NoSQLFieldGraph"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This property link specific element with graph Field.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has Element Field</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/ontographdb/hasElements -->
+    <!-- https://w3id.org/OntoGraphDB/hasElements -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/ontographdb/hasElements">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/GraphsDatabase"/>
-        <rdfs:range rdf:resource="https://w3id.org/ontographdb/Element"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoGraphDB/hasElements">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/GraphsDatabase"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoGraphDB/Element"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This property link a graph database with their elements.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has Element</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/ontographdb/hasRelationshipFrom -->
+    <!-- https://w3id.org/OntoGraphDB/hasRelationshipFrom -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/ontographdb/hasRelationshipFrom">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/Relationship"/>
-        <rdfs:range rdf:resource="https://w3id.org/ontographdb/Node"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoGraphDB/hasRelationshipFrom">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/Relationship"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoGraphDB/Node"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This property link the origin node that participate in a relationship.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has Relationship From</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/ontographdb/hasRelationshipTo -->
+    <!-- https://w3id.org/OntoGraphDB/hasRelationshipTo -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/ontographdb/hasRelationshipTo">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/Relationship"/>
-        <rdfs:range rdf:resource="https://w3id.org/ontographdb/Node"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoGraphDB/hasRelationshipTo">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/Relationship"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoGraphDB/Node"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This property link the destination node that participate in a relationship.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has Relationship To</rdfs:label>
     </owl:ObjectProperty>
@@ -199,10 +199,10 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/databaseHasName -->
+    <!-- https://w3id.org/OntoGraphDB/databaseHasName -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ontographdb/databaseHasName">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/Database"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoGraphDB/databaseHasName">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/Database"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate the name of the database.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database Has Name</rdfs:label>
@@ -210,10 +210,10 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/elementHasName -->
+    <!-- https://w3id.org/OntoGraphDB/elementHasName -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ontographdb/elementHasName">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/Element"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoGraphDB/elementHasName">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/Element"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate the name of the element.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element Has Name</rdfs:label>
@@ -221,10 +221,10 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/fieldIsIndex -->
+    <!-- https://w3id.org/OntoGraphDB/fieldIsIndex -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ontographdb/fieldIsIndex">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/NoSQLFieldGraph"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoGraphDB/fieldIsIndex">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/NoSQLFieldGraph"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Field Is Index</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate is the field is an index.</rdfs:label>
@@ -232,10 +232,10 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/fieldhasName -->
+    <!-- https://w3id.org/OntoGraphDB/fieldhasName -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ontographdb/fieldhasName">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/NoSQLField"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoGraphDB/fieldhasName">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/NoSQLField"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate the name of the field.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Field Has Name</rdfs:label>
@@ -243,10 +243,10 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/hasValue -->
+    <!-- https://w3id.org/OntoGraphDB/hasValue -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ontographdb/hasValue">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/NoSQLField"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoGraphDB/hasValue">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/NoSQLField"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate the value of the field.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has Value</rdfs:label>
@@ -254,10 +254,10 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/isRequired -->
+    <!-- https://w3id.org/OntoGraphDB/isRequired -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/ontographdb/isRequired">
-        <rdfs:domain rdf:resource="https://w3id.org/ontographdb/NoSQLField"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoGraphDB/isRequired">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoGraphDB/NoSQLField"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate if field is required.</rdfs:comment>
     </owl:DatatypeProperty>
@@ -297,86 +297,86 @@
     
 
 
-    <!-- https://w3id.org/ontographdb/Database -->
+    <!-- https://w3id.org/OntoGraphDB/Database -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/Database">
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/Database">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class represents the concept of a database in a generic way.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/ontographdb/Element -->
+    <!-- https://w3id.org/OntoGraphDB/Element -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/Element">
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/Element">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">According to graph theory, the element class generically defines the common properties of the terms that make up a graph.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/ontographdb/Field -->
+    <!-- https://w3id.org/OntoGraphDB/Field -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/Field">
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/Field">
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Field class represents the concept of a data field in any database.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Field</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/ontographdb/GraphsDatabase -->
+    <!-- https://w3id.org/OntoGraphDB/GraphsDatabase -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/GraphsDatabase">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ontographdb/NoSQLDatabase"/>
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/GraphsDatabase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoGraphDB/NoSQLDatabase"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class represents the concept of a Graphs database in a generic way.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graphs Databases</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/ontographdb/NoSQLDatabase -->
+    <!-- https://w3id.org/OntoGraphDB/NoSQLDatabase -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/NoSQLDatabase">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ontographdb/Database"/>
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/NoSQLDatabase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoGraphDB/Database"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class represents the concept of a NoSQL database in a generic way.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NoSQL Database</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/ontographdb/NoSQLField -->
+    <!-- https://w3id.org/OntoGraphDB/NoSQLField -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/NoSQLField">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ontographdb/Field"/>
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/NoSQLField">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoGraphDB/Field"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represent the specific NoSQL database type to which the field belongs.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NoSQL Field</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/ontographdb/NoSQLFieldGraph -->
+    <!-- https://w3id.org/OntoGraphDB/NoSQLFieldGraph -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/NoSQLFieldGraph">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ontographdb/NoSQLField"/>
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/NoSQLFieldGraph">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoGraphDB/NoSQLField"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represent the specific graph database type to which the field belongs.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NoSQL Field</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/ontographdb/Node -->
+    <!-- https://w3id.org/OntoGraphDB/Node -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/Node">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ontographdb/Element"/>
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/Node">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoGraphDB/Element"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Node</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/ontographdb/Relationship -->
+    <!-- https://w3id.org/OntoGraphDB/Relationship -->
 
-    <owl:Class rdf:about="https://w3id.org/ontographdb/Relationship">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/ontographdb/Element"/>
+    <owl:Class rdf:about="https://w3id.org/OntoGraphDB/Relationship">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoGraphDB/Element"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relationship</rdfs:label>
     </owl:Class>
 </rdf:RDF>

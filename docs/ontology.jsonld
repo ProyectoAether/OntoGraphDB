@@ -47,10 +47,10 @@
     "@id" : "http://www.ontologies.khaos.uma.es/bigowl/DataType"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/",
+  "@id" : "https://w3id.org/OntoGraphDB/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/citation" : [ {
-    "@value" : "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb"
+    "@value" : "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/OntoGraphDB"
   } ],
   "http://purl.org/dc/terms/created" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
@@ -98,10 +98,10 @@
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "https://w3id.org/ontographdb/"
+    "@value" : "OntoGraphDB"
   }, {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "@value" : "ontographdb"
+    "@value" : "https://w3id.org/OntoGraphDB/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -111,10 +111,10 @@
     "@value" : "Graph Databases Ontology"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/ontographdb/"
+    "@id" : "https://w3id.org/OntoGraphDB/"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/Database",
+  "@id" : "https://w3id.org/OntoGraphDB/Database",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This class represents the concept of a database in a generic way."
@@ -123,7 +123,7 @@
     "@value" : "Database"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/Element",
+  "@id" : "https://w3id.org/OntoGraphDB/Element",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "According to graph theory, the element class generically defines the common properties of the terms that make up a graph."
@@ -132,7 +132,7 @@
     "@value" : "Element"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/Field",
+  "@id" : "https://w3id.org/OntoGraphDB/Field",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The Field class represents the concept of a data field in any database."
@@ -141,22 +141,22 @@
     "@value" : "Field"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/FieldReference",
+  "@id" : "https://w3id.org/OntoGraphDB/FieldReference",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicate a field that reference other field."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/Field"
+    "@id" : "https://w3id.org/OntoGraphDB/Field"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Field Reference"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/ontographdb/Field"
+    "@id" : "https://w3id.org/OntoGraphDB/Field"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/GraphsDatabase",
+  "@id" : "https://w3id.org/OntoGraphDB/GraphsDatabase",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This class represents the concept of a Graphs database in a generic way."
@@ -165,10 +165,10 @@
     "@value" : "Graphs Databases"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/ontographdb/NoSQLDatabase"
+    "@id" : "https://w3id.org/OntoGraphDB/NoSQLDatabase"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/NoSQLDatabase",
+  "@id" : "https://w3id.org/OntoGraphDB/NoSQLDatabase",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This class represents the concept of a NoSQL database in a generic way."
@@ -177,10 +177,10 @@
     "@value" : "NoSQL Database"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/ontographdb/Database"
+    "@id" : "https://w3id.org/OntoGraphDB/Database"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/NoSQLField",
+  "@id" : "https://w3id.org/OntoGraphDB/NoSQLField",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Represent the specific NoSQL database type to which the field belongs."
@@ -189,10 +189,10 @@
     "@value" : "NoSQL Field"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/ontographdb/Field"
+    "@id" : "https://w3id.org/OntoGraphDB/Field"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/NoSQLFieldGraph",
+  "@id" : "https://w3id.org/OntoGraphDB/NoSQLFieldGraph",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Represent the specific graph database type to which the field belongs."
@@ -201,34 +201,34 @@
     "@value" : "NoSQL Field"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/ontographdb/NoSQLField"
+    "@id" : "https://w3id.org/OntoGraphDB/NoSQLField"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/Node",
+  "@id" : "https://w3id.org/OntoGraphDB/Node",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Node"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/ontographdb/Element"
+    "@id" : "https://w3id.org/OntoGraphDB/Element"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/Relationship",
+  "@id" : "https://w3id.org/OntoGraphDB/Relationship",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Relationship"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/ontographdb/Element"
+    "@id" : "https://w3id.org/OntoGraphDB/Element"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/databaseHasName",
+  "@id" : "https://w3id.org/OntoGraphDB/databaseHasName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicate the name of the database."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/Database"
+    "@id" : "https://w3id.org/OntoGraphDB/Database"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Database Has Name"
@@ -237,13 +237,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/elementHasName",
+  "@id" : "https://w3id.org/OntoGraphDB/elementHasName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicate the name of the element."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/Element"
+    "@id" : "https://w3id.org/OntoGraphDB/Element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Element Has Name"
@@ -252,10 +252,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/fieldIsIndex",
+  "@id" : "https://w3id.org/OntoGraphDB/fieldIsIndex",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/NoSQLFieldGraph"
+    "@id" : "https://w3id.org/OntoGraphDB/NoSQLFieldGraph"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Field Is Index"
@@ -266,13 +266,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/fieldhasName",
+  "@id" : "https://w3id.org/OntoGraphDB/fieldhasName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicate the name of the field."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/NoSQLField"
+    "@id" : "https://w3id.org/OntoGraphDB/NoSQLField"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Field Has Name"
@@ -281,13 +281,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/hasDatatype",
+  "@id" : "https://w3id.org/OntoGraphDB/hasDatatype",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This object property link the field with the type."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/NoSQLField"
+    "@id" : "https://w3id.org/OntoGraphDB/NoSQLField"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Has Datatype"
@@ -296,73 +296,73 @@
     "@id" : "http://www.ontologies.khaos.uma.es/bigowl/DataType"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/hasElementField",
+  "@id" : "https://w3id.org/OntoGraphDB/hasElementField",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This property link specific element with graph Field."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/Element"
+    "@id" : "https://w3id.org/OntoGraphDB/Element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Has Element Field"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/ontographdb/NoSQLFieldGraph"
+    "@id" : "https://w3id.org/OntoGraphDB/NoSQLFieldGraph"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/hasElements",
+  "@id" : "https://w3id.org/OntoGraphDB/hasElements",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This property link a graph database with their elements."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/GraphsDatabase"
+    "@id" : "https://w3id.org/OntoGraphDB/GraphsDatabase"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Has Element"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/ontographdb/Element"
+    "@id" : "https://w3id.org/OntoGraphDB/Element"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/hasRelationshipFrom",
+  "@id" : "https://w3id.org/OntoGraphDB/hasRelationshipFrom",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This property link the origin node that participate in a relationship."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/Relationship"
+    "@id" : "https://w3id.org/OntoGraphDB/Relationship"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Has Relationship From"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/ontographdb/Node"
+    "@id" : "https://w3id.org/OntoGraphDB/Node"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/hasRelationshipTo",
+  "@id" : "https://w3id.org/OntoGraphDB/hasRelationshipTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This property link the destination node that participate in a relationship."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/Relationship"
+    "@id" : "https://w3id.org/OntoGraphDB/Relationship"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Has Relationship To"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/ontographdb/Node"
+    "@id" : "https://w3id.org/OntoGraphDB/Node"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/hasValue",
+  "@id" : "https://w3id.org/OntoGraphDB/hasValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicate the value of the field."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/NoSQLField"
+    "@id" : "https://w3id.org/OntoGraphDB/NoSQLField"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Has Value"
@@ -371,13 +371,13 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://w3id.org/ontographdb/isRequired",
+  "@id" : "https://w3id.org/OntoGraphDB/isRequired",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Indicate if field is required."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/ontographdb/NoSQLField"
+    "@id" : "https://w3id.org/OntoGraphDB/NoSQLField"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
