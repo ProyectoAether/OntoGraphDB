@@ -1,0 +1,234 @@
+<https://w3id.org/ontographdb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/ontographdb> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/ontographdb/1.0.0> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/citation> "Manuel Paneque, María del Mar Roldán-García, Carlos Blanco, Alejandro Maté, Eduardo Fernández-Medina, Juan Trujillo, (2022) - Ontology-based Secure Design for Graph-based Databases. W3ID. https://w3id.org/ontographdb" .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/created> "2022-06-30T08:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Alejandro Maté, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Carlos Blanco, (Universidad de Cantabria)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Eduardo Fernández-Medina, (Universidad de Castilla - La Mancha)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Juan Trujillo, (Universidad de Alicante)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "Manuel Paneque, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/creator> "María del Mar Roldán-García, (Universidad de Málaga)"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/issued> "2022-06-30T08:24:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/license> "https://opensource.org/licenses/MIT"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/modified> "2022-06-30T08:24:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/publisher> "Aether Group" .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/rights> "(c) Aether Group" .
+<https://w3id.org/ontographdb> <http://purl.org/dc/terms/title> "Graph Databases Ontology" .
+<https://w3id.org/ontographdb> <http://purl.org/vocab/vann/preferredNamespacePrefix> "https://w3id.org/ontographdb/"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ontographdb"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontologie that generically encompass and represent the domain in graph-oriented database."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/ontographdb> <http://www.w3.org/2000/01/rdf-schema#label> "Graph Databases Ontology" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/citation
+<http://purl.org/dc/terms/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/ontographdb/FieldReference
+<https://w3id.org/ontographdb/FieldReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ontographdb/FieldReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/ontographdb/FieldReference> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/Field> .
+<https://w3id.org/ontographdb/FieldReference> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ontographdb/Field> .
+<https://w3id.org/ontographdb/FieldReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate a field that reference other field." .
+<https://w3id.org/ontographdb/FieldReference> <http://www.w3.org/2000/01/rdf-schema#label> "Field Reference" .
+# 
+# https://w3id.org/ontographdb/hasDatatype
+<https://w3id.org/ontographdb/hasDatatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ontographdb/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/NoSQLField> .
+<https://w3id.org/ontographdb/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologies.khaos.uma.es/bigowl/DataType> .
+<https://w3id.org/ontographdb/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#comment> "This object property link the field with the type." .
+<https://w3id.org/ontographdb/hasDatatype> <http://www.w3.org/2000/01/rdf-schema#label> "Has Datatype" .
+# 
+# https://w3id.org/ontographdb/hasElementField
+<https://w3id.org/ontographdb/hasElementField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ontographdb/hasElementField> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/Element> .
+<https://w3id.org/ontographdb/hasElementField> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ontographdb/NoSQLFieldGraph> .
+<https://w3id.org/ontographdb/hasElementField> <http://www.w3.org/2000/01/rdf-schema#comment> "This property link specific element with graph Field." .
+<https://w3id.org/ontographdb/hasElementField> <http://www.w3.org/2000/01/rdf-schema#label> "Has Element Field" .
+# 
+# https://w3id.org/ontographdb/hasElements
+<https://w3id.org/ontographdb/hasElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ontographdb/hasElements> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/GraphsDatabase> .
+<https://w3id.org/ontographdb/hasElements> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ontographdb/Element> .
+<https://w3id.org/ontographdb/hasElements> <http://www.w3.org/2000/01/rdf-schema#comment> "This property link a graph database with their elements." .
+<https://w3id.org/ontographdb/hasElements> <http://www.w3.org/2000/01/rdf-schema#label> "Has Element" .
+# 
+# https://w3id.org/ontographdb/hasRelationshipFrom
+<https://w3id.org/ontographdb/hasRelationshipFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ontographdb/hasRelationshipFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/Relationship> .
+<https://w3id.org/ontographdb/hasRelationshipFrom> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ontographdb/Node> .
+<https://w3id.org/ontographdb/hasRelationshipFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "This property link the origin node that participate in a relationship." .
+<https://w3id.org/ontographdb/hasRelationshipFrom> <http://www.w3.org/2000/01/rdf-schema#label> "Has Relationship From" .
+# 
+# https://w3id.org/ontographdb/hasRelationshipTo
+<https://w3id.org/ontographdb/hasRelationshipTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ontographdb/hasRelationshipTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/Relationship> .
+<https://w3id.org/ontographdb/hasRelationshipTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ontographdb/Node> .
+<https://w3id.org/ontographdb/hasRelationshipTo> <http://www.w3.org/2000/01/rdf-schema#comment> "This property link the destination node that participate in a relationship." .
+<https://w3id.org/ontographdb/hasRelationshipTo> <http://www.w3.org/2000/01/rdf-schema#label> "Has Relationship To" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/ontographdb/databaseHasName
+<https://w3id.org/ontographdb/databaseHasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ontographdb/databaseHasName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/Database> .
+<https://w3id.org/ontographdb/databaseHasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/ontographdb/databaseHasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the database." .
+<https://w3id.org/ontographdb/databaseHasName> <http://www.w3.org/2000/01/rdf-schema#label> "Database Has Name" .
+# 
+# https://w3id.org/ontographdb/elementHasName
+<https://w3id.org/ontographdb/elementHasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ontographdb/elementHasName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/Element> .
+<https://w3id.org/ontographdb/elementHasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/ontographdb/elementHasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the element." .
+<https://w3id.org/ontographdb/elementHasName> <http://www.w3.org/2000/01/rdf-schema#label> "Element Has Name" .
+# 
+# https://w3id.org/ontographdb/fieldIsIndex
+<https://w3id.org/ontographdb/fieldIsIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ontographdb/fieldIsIndex> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/NoSQLFieldGraph> .
+<https://w3id.org/ontographdb/fieldIsIndex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ontographdb/fieldIsIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Field Is Index" .
+<https://w3id.org/ontographdb/fieldIsIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Indicate is the field is an index." .
+# 
+# https://w3id.org/ontographdb/fieldhasName
+<https://w3id.org/ontographdb/fieldhasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ontographdb/fieldhasName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/NoSQLField> .
+<https://w3id.org/ontographdb/fieldhasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/ontographdb/fieldhasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the name of the field." .
+<https://w3id.org/ontographdb/fieldhasName> <http://www.w3.org/2000/01/rdf-schema#label> "Field Has Name" .
+# 
+# https://w3id.org/ontographdb/hasValue
+<https://w3id.org/ontographdb/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ontographdb/hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/NoSQLField> .
+<https://w3id.org/ontographdb/hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/ontographdb/hasValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate the value of the field." .
+<https://w3id.org/ontographdb/hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "Has Value" .
+# 
+# https://w3id.org/ontographdb/isRequired
+<https://w3id.org/ontographdb/isRequired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ontographdb/isRequired> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ontographdb/NoSQLField> .
+<https://w3id.org/ontographdb/isRequired> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/ontographdb/isRequired> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicate if field is required." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.ontologies.khaos.uma.es/bigowl/DataType
+<http://www.ontologies.khaos.uma.es/bigowl/DataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.ontologies.khaos.uma.es/bigowl/PrimitiveType
+<http://www.ontologies.khaos.uma.es/bigowl/PrimitiveType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologies.khaos.uma.es/bigowl/PrimitiveType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologies.khaos.uma.es/bigowl/DataType> .
+# 
+# http://www.ontologies.khaos.uma.es/bigowl/StructuredType
+<http://www.ontologies.khaos.uma.es/bigowl/StructuredType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologies.khaos.uma.es/bigowl/StructuredType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologies.khaos.uma.es/bigowl/DataType> .
+# 
+# https://w3id.org/ontographdb/Database
+<https://w3id.org/ontographdb/Database> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/Database> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the concept of a database in a generic way." .
+<https://w3id.org/ontographdb/Database> <http://www.w3.org/2000/01/rdf-schema#label> "Database" .
+# 
+# https://w3id.org/ontographdb/Element
+<https://w3id.org/ontographdb/Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/Element> <http://www.w3.org/2000/01/rdf-schema#comment> "According to graph theory, the element class generically defines the common properties of the terms that make up a graph." .
+<https://w3id.org/ontographdb/Element> <http://www.w3.org/2000/01/rdf-schema#label> "Element" .
+# 
+# https://w3id.org/ontographdb/Field
+<https://w3id.org/ontographdb/Field> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/Field> <http://www.w3.org/2000/01/rdf-schema#comment> "The Field class represents the concept of a data field in any database." .
+<https://w3id.org/ontographdb/Field> <http://www.w3.org/2000/01/rdf-schema#label> "Field" .
+# 
+# https://w3id.org/ontographdb/GraphsDatabase
+<https://w3id.org/ontographdb/GraphsDatabase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/GraphsDatabase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ontographdb/NoSQLDatabase> .
+<https://w3id.org/ontographdb/GraphsDatabase> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the concept of a Graphs database in a generic way." .
+<https://w3id.org/ontographdb/GraphsDatabase> <http://www.w3.org/2000/01/rdf-schema#label> "Graphs Databases" .
+# 
+# https://w3id.org/ontographdb/NoSQLDatabase
+<https://w3id.org/ontographdb/NoSQLDatabase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/NoSQLDatabase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ontographdb/Database> .
+<https://w3id.org/ontographdb/NoSQLDatabase> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the concept of a NoSQL database in a generic way." .
+<https://w3id.org/ontographdb/NoSQLDatabase> <http://www.w3.org/2000/01/rdf-schema#label> "NoSQL Database" .
+# 
+# https://w3id.org/ontographdb/NoSQLField
+<https://w3id.org/ontographdb/NoSQLField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/NoSQLField> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ontographdb/Field> .
+<https://w3id.org/ontographdb/NoSQLField> <http://www.w3.org/2000/01/rdf-schema#comment> "Represent the specific NoSQL database type to which the field belongs." .
+<https://w3id.org/ontographdb/NoSQLField> <http://www.w3.org/2000/01/rdf-schema#label> "NoSQL Field" .
+# 
+# https://w3id.org/ontographdb/NoSQLFieldGraph
+<https://w3id.org/ontographdb/NoSQLFieldGraph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/NoSQLFieldGraph> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ontographdb/NoSQLField> .
+<https://w3id.org/ontographdb/NoSQLFieldGraph> <http://www.w3.org/2000/01/rdf-schema#comment> "Represent the specific graph database type to which the field belongs." .
+<https://w3id.org/ontographdb/NoSQLFieldGraph> <http://www.w3.org/2000/01/rdf-schema#label> "NoSQL Field" .
+# 
+# https://w3id.org/ontographdb/Node
+<https://w3id.org/ontographdb/Node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/Node> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ontographdb/Element> .
+<https://w3id.org/ontographdb/Node> <http://www.w3.org/2000/01/rdf-schema#label> "Node" .
+# 
+# https://w3id.org/ontographdb/Relationship
+<https://w3id.org/ontographdb/Relationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ontographdb/Relationship> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ontographdb/Element> .
+<https://w3id.org/ontographdb/Relationship> <http://www.w3.org/2000/01/rdf-schema#label> "Relationship" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
