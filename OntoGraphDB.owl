@@ -25,8 +25,8 @@
         <terms:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aether Group</terms:publisher>
         <terms:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(c) Aether Group</terms:rights>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Databases Ontology</terms:title>
-        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://w3id.org/OntoGraphDB/</vann:preferredNamespacePrefix>
         <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">OntoGraphDB</vann:preferredNamespacePrefix>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://w3id.org/OntoGraphDB/</vann:preferredNamespacePrefix>
         <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Ontologie that generically encompass and represent the domain in graph-oriented database.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Databases Ontology</rdfs:label>
     </owl:Ontology>
@@ -275,6 +275,12 @@
     
 
 
+    <!-- http://www.ontologies.khaos.uma.es/bigowl/Data -->
+
+    <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/bigowl/Data"/>
+    
+
+
     <!-- http://www.ontologies.khaos.uma.es/bigowl/DataType -->
 
     <owl:Class rdf:about="http://www.ontologies.khaos.uma.es/bigowl/DataType"/>
@@ -300,6 +306,7 @@
     <!-- https://w3id.org/OntoGraphDB/Database -->
 
     <owl:Class rdf:about="https://w3id.org/OntoGraphDB/Database">
+        <rdfs:subClassOf rdf:resource="http://www.ontologies.khaos.uma.es/bigowl/Data"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class represents the concept of a database in a generic way.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database</rdfs:label>
     </owl:Class>
