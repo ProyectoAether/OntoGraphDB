@@ -8,6 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/"
      xmlns:databases="https://w3id.org/OntoGraphDB/">
     <owl:Ontology rdf:about="https://w3id.org/OntoGraphDB/">
         <owl:versionIRI rdf:resource="https://w3id.org/OntoGraphDB/"/>
@@ -19,6 +20,7 @@
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Juan Trujillo, (Universidad de Alicante)</terms:creator>
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Manuel Paneque, (Universidad de Málaga)</terms:creator>
         <terms:creator rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">María del Mar Roldán-García, (Universidad de Málaga)</terms:creator>
+        <terms:description rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Ontologie that generically encompass and represent the domain in graph-oriented database.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:00</terms:issued>
         <terms:license rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://opensource.org/licenses/MIT</terms:license>
         <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-06-30T08:24:01</terms:modified>
@@ -27,8 +29,8 @@
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Databases Ontology</terms:title>
         <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">OntoGraphDB</vann:preferredNamespacePrefix>
         <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://w3id.org/OntoGraphDB/</vann:preferredNamespacePrefix>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Ontologie that generically encompass and represent the domain in graph-oriented database.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graph Databases Ontology</rdfs:label>
+        <schema:logo rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">https://proyectoaether.github.io/OntoGraphDB/OntoGraphDB.svg</schema:logo>
     </owl:Ontology>
     
 
@@ -59,6 +61,12 @@
     <!-- http://purl.org/dc/terms/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
 
 
@@ -107,6 +115,12 @@
     <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- https://schema.org/logo -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/logo"/>
     
 
 
